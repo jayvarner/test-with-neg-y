@@ -1,0 +1,42 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://readux.io/annotations/jay/23628489-f27b-4e4d-a76f-8d81a313effe/list/23628489-f27b-4e4d-a76f-8d81a313effe_MSS0921-B030-F009-I001-P001-PROD.jpg",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "693c3449-3b14-4f10-9362-77bdb72c1241",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "annotatedBy": {
+                "name": "Jay Varner"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>tnttntn</p>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://readux.io/iiif/v2/23628489-f27b-4e4d-a76f-8d81a313effe/canvas/23628489-f27b-4e4d-a76f-8d81a313effe_MSS0921-B030-F009-I001-P001-PROD.jpg",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.io/iiif/v2/23628489-f27b-4e4d-a76f-8d81a313effe/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=714,899,824,693",
+                    "item": {
+                        "@type": "oa:Choice",
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M714.18335,899.44282h411.76516v0h411.76516v346.41616v346.41616h-411.76516h-411.76516v-346.41616z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_757cc791-cc7a-4e3b-93ae-1b74f08ff4fb\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=714,899,824,693"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
